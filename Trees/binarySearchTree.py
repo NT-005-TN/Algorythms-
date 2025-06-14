@@ -5,12 +5,12 @@ class BinarySearchTree:
     self.left = None
     self.right = None
 
+'''
 def insert(root, key):
-    
-
+   
 tree = BinarySearchTree(2, 3)
 print(tree.findNode(2))
-  
+'''
 
 '''Центрированный(симметричный) обход дерева'''
 
