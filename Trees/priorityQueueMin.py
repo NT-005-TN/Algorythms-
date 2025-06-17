@@ -65,6 +65,13 @@ class priorityQueue(binaryHeap):
     self.heap.append(float("+Inf"))
     self.heapDecreaseKey(len(self.heap)-1, key)
 
+  def heapDelete(self, i):
+    heap = self.heap
+    l = self.left(i)
+    r = self.right(i)
+
+      
+
 heap = [15,13,9,5,12,8,7,4,0,6,2,1]
 queue1 = priorityQueue(heap)
 print(queue1.heap)
