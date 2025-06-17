@@ -50,7 +50,6 @@ for i in range(3):
   print(queue1.heap)
   print(queue1.head, queue1.tail)
   
-
 dq = queue(10)
 
 for x in [10, 20, 30]:
